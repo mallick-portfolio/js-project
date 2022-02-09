@@ -12,6 +12,7 @@ body[data-theme="light"]{
 --color-2: white;
 --color-3: rgb(160, 155, 155);
 --color-4: rgb(80, 82, 110);
+transition: all .5s ease-in;
 }
 
 /* Dark Theme Color */
@@ -20,6 +21,7 @@ body[data-theme="dark"]{
 --color-2: #292c33;
 --color-3: rgb(39, 40, 42);
 --color-4: rgb(186, 186, 202);
+transition: all .5s ease-in;
 }
 body{
 font-family: 'Montserrat', sans-serif;
